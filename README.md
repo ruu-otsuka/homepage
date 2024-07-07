@@ -1,2 +1,1 @@
-# maya_withLine
-LINEと連携。GAS使用。
+名刺のQRコード先
