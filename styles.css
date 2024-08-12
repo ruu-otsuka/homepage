@@ -227,3 +227,56 @@ footer {
     height: 10rem; /* ロゴの高さを調整 */
     width: auto;
 }
+
+.member-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.member-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.member-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.member-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.member-info {
+    flex-grow: 1;
+}
+
+.member-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.member-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.member-info h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.member-info ul {
+    padding-left: 20px;
+}
+
+.member-info ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
