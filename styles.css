@@ -41,11 +41,28 @@ body {
     font-family: Arial, sans-serif;
     background-color: var(--secondary-color);
     color: var(--text-color);
+    height: 100%;
+    overflow: hidden; /* 全体のスクロールを無効にする */
 }
 
 .container {
     display: flex;
     height: 100vh;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.top-container {
+    flex-grow: 1; /* コンテンツエリアを残りのスペースで拡張 */
+    overflow-y: auto; /* 必要なときだけ縦スクロールを表示 */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .sidebar {
