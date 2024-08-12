@@ -18,22 +18,25 @@
                 contact_method: document.getElementById('contact-method').value
             };
 
-            fetch('https://script.google.com/macros/s/AKfycbye8EiAgOW4ygoldyXPBU8Cg3tBByL1zbGhZIYdPcdyUMa_aqP9xGw1sKWd67q09bYkSg/exec', {
+            fetch('https://script.google.com/macros/s/AKfycbzJvpjceax8VKkj_hV7nPbj3g3tExfOv6JkjNhI65oJuwJQpwOQKenj1ijHOpj68c15PQ/exec', {
                 method: 'POST',
+                // mode: 'no-cors',
                 body: JSON.stringify(formData),
                 headers: {
-                    'Content-Type': 'application/json'
+                    // "Accept": "application/json",
+                    "Content-Type": "application/x-www-form-urlencoded",
                 }
             }).then(response => {
+                console.log(response)
+                console.log(response.json())
                 if (response.ok) {
-                    return response.text(); // レスポンスをテキストとして読み取る
+                    alert("送信されました。");
                 } else {
-                    return response.text().then(text => {
-                        throw new Error(text);
+                    response.text().then(text => {
+                        console.error('Error response:', text);
+                        alert("送信中にエラーが発生しました: " + text);
                     });
                 }
-            }).then(data => {
-                alert("送信されました: " + data);
             }).catch(error => {
                 console.error('Fetch error:', error);
                 alert("送信中にエラーが発生しました: " + error.message);
