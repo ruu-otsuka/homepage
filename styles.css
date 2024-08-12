@@ -1,7 +1,46 @@
+/* :root {
+    --main-color: #E6F7FF; 
+    --secondary-color: #FFFFFF; 
+    --accent-color: #007BFF; 
+    --text-color: #333; 
+    --hover-text-color: var(--accent-color); 
+}
+:root {
+    --main-color: #DFF0D8; 
+    --secondary-color: #FFFFFF; 
+    --accent-color: #4CAF50; 
+    --text-color: #4E5D6C; 
+    --hover-text-color: var(--accent-color); 
+}
+:root {
+    --main-color: #F3E5F5; 
+    --secondary-color: #FFFFFF; 
+    --accent-color: #9C27B0; 
+    --text-color: #4A4A4A; 
+    --hover-text-color: var(--accent-color); 
+}
+:root {
+    --main-color: #FFEBEE; 
+    --secondary-color: #FFFFFF; 
+    --accent-color: #E53935; 
+    --text-color: #212121; 
+    --hover-text-color: var(--accent-color); 
+} */
+:root {
+    --main-color: #FFF3E0; 
+    --secondary-color: #FFFFFF; 
+    --accent-color: #FFA726; 
+    --text-color: #5D4037; 
+    --hover-text-color: var(--accent-color); 
+}
+
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .container {
@@ -11,7 +50,7 @@ body {
 
 .sidebar {
     width: 18%;
-    background-color: #F0F0FF;
+    background-color: var(--main-color);
     padding: 10px;
     box-sizing: border-box;
 }
@@ -27,19 +66,52 @@ body {
 
 .sidebar a {
     text-decoration: none;
-    color: #333;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 16px;
 }
 
 .sidebar a:hover {
-    color: #0000FF;
+    color: var(--hover-text-color);
 }
 
 .content {
     width: 82%;
     padding: 10px;
     box-sizing: border-box;
+    background-color: var(--secondary-color);
+}
+
+.picture-container {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.murmur-container {
+    padding: 20px;
 }
 
 iframe {
