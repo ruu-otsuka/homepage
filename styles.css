@@ -34,7 +34,6 @@
     --hover-text-color: var(--accent-color); 
 }
 
-
 body, html {
     margin: 0;
     padding: 0;
@@ -42,7 +41,44 @@ body, html {
     background-color: var(--secondary-color);
     color: var(--text-color);
     height: 100%;
-    overflow: hidden; /* 全体のスクロールを無効にする */
+    overflow: hidden;
+}
+
+header {
+    background-color: var(--main-color);
+    height: 5rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+    color: var(--hover-text-color);
 }
 
 .iframe-body{
@@ -51,8 +87,8 @@ body, html {
 
 .container {
     display: flex;
-    height: 100vh; /* ビューポートの高さ全体に広げる */
-    width: 100vw; /* ビューポートの幅全体に広げる */
+    height: calc(100vh - 16rem - 10px); /* ヘッダーとフッターを除いた高さに調整 */
+    width: 100vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -78,8 +114,8 @@ body, html {
     background-color: var(--main-color);
     padding: 10px;
     box-sizing: border-box;
-    height: 100vh; /* サイドバーもビューポート全体に広げる */
-    overflow-y: auto; /* コンテンツが溢れた場合はスクロールを有効にする */
+    height: 100%; /* コンテナ内で高さを全体に合わせる */
+    overflow-y: auto;
 }
 
 .sidebar ul {
@@ -105,11 +141,10 @@ body, html {
 
 .content {
     flex-grow: 1;
-    height: 100vh; /* コンテンツエリアもビューポート全体に広げる */
     padding: 0;
     box-sizing: border-box;
     background-color: var(--secondary-color);
-    overflow: hidden; /* 余計なスクロールを防ぐ */
+    overflow: hidden;
 }
 
 .picture-container {
@@ -147,8 +182,48 @@ body, html {
 iframe {
     width: 100%;
     height: 100%;
-    display: block; /* 余計な余白を防ぐために display: block を設定 */
-    margin: 0; /* 余白をゼロに */
-    padding: 0; /* パディングもゼロに */
+    display: block;
+    margin: 0;
+    padding: 0;
     border: none;
+}
+
+footer {
+    background-color: var(--main-color);
+    height: 12rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-top: 2px solid var(--accent-color);
+    display: flex;
+    justify-content: center; /* フッター全体を中央に配置 */
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-media-links a,
+.legal-links a {
+    text-decoration: none;
+    color: var(--accent-color);
+    margin: 0 1rem;
+}
+
+.social-media-links a:hover,
+.legal-links a:hover {
+    color: var(--hover-text-color);
+}
+
+.footer-logo {
+    position: absolute;
+    right: 20px; /* フッターの右端に配置 */
+    bottom: 0; /* フッターの下から0px上に配置 */
+}
+
+.footer-logo img {
+    height: 10rem; /* ロゴの高さを調整 */
+    width: auto;
 }
