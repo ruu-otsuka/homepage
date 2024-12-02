@@ -1,0 +1,93 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "14.1.0",
+  "textdomain": "unitone",
+  "name": "unitone/switcher",
+  "title": "Switcher",
+  "description": "This block switches the direction of contents flow depending on its contents.",
+  "attributes": {
+    "revert": {
+      "type": "boolean",
+      "default": false
+    },
+    "threshold": {
+      "type": "string",
+      "default": "var(--wp--style--global--content-size)"
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=switcher]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "alignItems": true,
+      "gap": {
+        "splitOnAxis": true
+      },
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "threshold": "200px"
+    },
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "dolor sit"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "amet"
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

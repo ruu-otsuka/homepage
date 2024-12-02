@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "name": "unitone/frame",
+  "title": "Frame",
+  "description": "This block is used to fit the image into a fixed angle of view.",
+  "attributes": {
+    "ratio": {
+      "type": "string",
+      "default": "16/9"
+    },
+    "switchRatio": {
+      "type": "boolean",
+      "default": false
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=frame]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "unitone": {
+      "parallax": true,
+      "scrollAnimation": true
+    }
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

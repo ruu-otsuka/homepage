@@ -1,0 +1,85 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "unitone-accent",
+					"color": "#44308d",
+					"name": "Accent"
+				},
+				{
+					"slug": "unitone-background",
+					"color": "var(--unitone--color--background-alt)",
+					"name": "Background"
+				},
+				{
+					"slug": "unitone-background-alt",
+					"color": "var(--unitone--color--background)",
+					"name": "Background Alt"
+				},
+				{
+					"slug": "unitone-text",
+					"color": "var(--unitone--color--text-alt)",
+					"name": "Text"
+				},
+				{
+					"slug": "unitone-text-alt",
+					"color": "var(--unitone--color--text)",
+					"name": "Text Alt"
+				},
+				{
+					"slug": "unitone-text-black",
+					"color": "var(--unitone--color--text-immutable)",
+					"name": "Text (Black / Immutable)"
+				},
+				{
+					"slug": "unitone-pale-gray",
+					"color": "rgba(213, 228, 241, .05)",
+					"name": "Pale Gray"
+				},
+				{
+					"slug": "unitone-bright-gray",
+					"color": "rgba(213, 228, 241, .1)",
+					"name": "Bright Gray"
+				},
+				{
+					"slug": "unitone-light-gray",
+					"color": "rgba(213, 228, 241, .2)",
+					"name": "Light Gray"
+				},
+				{
+					"slug": "unitone-gray",
+					"color": "rgba(213, 228, 241, .4)",
+					"name": "Gray"
+				},
+				{
+					"slug": "unitone-dark-gray",
+					"color": "rgba(213, 228, 241, .7)",
+					"name": "Dark Gray"
+				},
+				{
+					"slug": "unitone-heavy-gray",
+					"color": "rgba(213, 228, 241, .95)",
+					"name": "Heavy Gray"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--unitone-accent)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--unitone-text)"
+				}
+			}
+		}
+	}
+}

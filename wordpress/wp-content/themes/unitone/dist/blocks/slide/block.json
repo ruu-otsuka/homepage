@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "name": "unitone/slide",
+  "title": "Slide",
+  "parent": [
+    "unitone/slider"
+  ],
+  "attributes": {
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": ".unitone-slider__slide"
+  },
+  "supports": {
+    "className": false,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "category": "unitone/component",
+  "editorScript": "file:./index.js"
+}

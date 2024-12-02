@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "11.3.0",
+  "textdomain": "unitone",
+  "name": "unitone/breadcrumbs",
+  "title": "Breadcrumbs",
+  "description": "This block indicates the current page location.",
+  "attributes": {
+    "divider": {
+      "type": "string",
+      "default": "slash"
+    }
+  },
+  "selectors": {
+    "root": ".unitone-breadcrumbs"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": false,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "example": {},
+  "category": "unitone/component",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

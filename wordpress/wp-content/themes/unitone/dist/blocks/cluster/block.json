@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "10.9.0",
+  "textdomain": "unitone",
+  "name": "unitone/cluster",
+  "title": "Cluster",
+  "description": "This block arranges children horizontally.",
+  "attributes": {
+    "unitone": {
+      "type": "object",
+      "default": {
+        "alignItems": "stretch",
+        "justifyContent": "start"
+      }
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=cluster]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "alignItems": true,
+      "justifyContent": true,
+      "gap": {
+        "splitOnAxis": true
+      },
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum amet"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "dolor sit"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "amet"
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

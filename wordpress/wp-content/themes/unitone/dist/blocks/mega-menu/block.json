@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "version": "11.0.2",
+  "name": "unitone/mega-menu",
+  "title": "Mega Menu",
+  "description": "Add a mega menu to your navigation.",
+  "parent": [
+    "core/navigation"
+  ],
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "opensInNewTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "showSubmenuIcon": {
+      "type": "boolean",
+      "default": true
+    },
+    "openSubmenusOnClick": {
+      "type": "boolean",
+      "default": false
+    },
+    "overlayBackgroundColor": {
+      "type": "string"
+    },
+    "customOverlayBackgroundColor": {
+      "type": "string"
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": ".unitone-mega-menu"
+  },
+  "supports": {
+    "className": false,
+    "color": {
+      "background": true,
+      "link": false,
+      "text": true
+    },
+    "interactivity": true
+  },
+  "category": "unitone/component",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}

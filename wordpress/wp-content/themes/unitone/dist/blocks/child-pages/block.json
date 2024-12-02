@@ -1,0 +1,103 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "15.1.1",
+  "textdomain": "unitone",
+  "name": "unitone/child-pages",
+  "title": "Child pages",
+  "description": "This block displays child pages.",
+  "attributes": {
+    "showTopLevel": {
+      "type": "boolean",
+      "default": false
+    },
+    "parent": {
+      "type": "object",
+      "default": {}
+    },
+    "parentTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "columnMinWidth": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "selectors": {
+    "root": ".unitone-child-pages, .unitone-child-pages .unitone-child-pages__item"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": true,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "gap": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "cluster-divided-stripe",
+      "label": "Cluster (Stripe)"
+    },
+    {
+      "name": "cluster-divided-slash",
+      "label": "Cluster (Slash)"
+    },
+    {
+      "name": "stack-divided-stripe",
+      "label": "Stack (Stripe)"
+    },
+    {
+      "name": "rich-media",
+      "label": "Rich media"
+    },
+    {
+      "name": "box",
+      "label": "Box"
+    },
+    {
+      "name": "panel",
+      "label": "Panel"
+    }
+  ],
+  "category": "unitone/component",
+  "style": [
+    "unitone-cluster-style",
+    "unitone-cluster-divided-style",
+    "unitone-stack-style",
+    "unitone-stack-divided-style",
+    "unitone-responsive-grid-style",
+    "unitone-responsive-grid-divided-style",
+    "unitone-decorator-style",
+    "unitone-frame-style",
+    "file:./style-index.css"
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "render": "file:./render.php"
+}

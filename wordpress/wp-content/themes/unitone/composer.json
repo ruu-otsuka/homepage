@@ -1,0 +1,29 @@
+{
+	"name": "inc2734/unitone",
+	"version": "1.0.0",
+	"require": {
+		"php": ">=7.4",
+		"inc2734/wp-breadcrumbs": "^3.1",
+		"inc2734/wp-github-theme-updater": "^3.1",
+		"inc2734/wp-oembed-blog-card": "^13.0"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"phpcompatibility/phpcompatibility-wp": "*",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+	},
+	"scripts": {
+		"format": "phpcbf --standard=.phpcs.xml.dist --report-summary --report-source",
+		"lint": "phpcs --standard=.phpcs.xml.dist"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Unitone\\": ""
+		}
+	}
+}

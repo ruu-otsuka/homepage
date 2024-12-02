@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "name": "unitone/reel",
+  "title": "Reel",
+  "description": "This block displays children scrolling horizontally.",
+  "attributes": {
+    "height": {
+      "type": "string",
+      "default": ""
+    },
+    "itemWidth": {
+      "type": "string",
+      "default": "calc(var(--wp--style--global--content-size) / 2)"
+    },
+    "noBar": {
+      "type": "boolean",
+      "default": false
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=reel]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "gap": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

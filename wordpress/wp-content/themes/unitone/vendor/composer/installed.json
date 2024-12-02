@@ -1,0 +1,151 @@
+{
+    "packages": [
+        {
+            "name": "inc2734/wp-breadcrumbs",
+            "version": "3.1.9",
+            "version_normalized": "3.1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inc2734/wp-breadcrumbs.git",
+                "reference": "f1f3ee6dbb2b27092ba57830d75d06026411ac42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inc2734/wp-breadcrumbs/zipball/f1f3ee6dbb2b27092ba57830d75d06026411ac42",
+                "reference": "f1f3ee6dbb2b27092ba57830d75d06026411ac42",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "time": "2023-08-31T23:29:52+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inc2734\\WP_Breadcrumbs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Takashi Kitajima",
+                    "email": "inc@2inc.org"
+                }
+            ],
+            "description": "A library for WordPress breadcrumbs.",
+            "support": {
+                "issues": "https://github.com/inc2734/wp-breadcrumbs/issues",
+                "source": "https://github.com/inc2734/wp-breadcrumbs/tree/3.1.9"
+            },
+            "install-path": "../inc2734/wp-breadcrumbs"
+        },
+        {
+            "name": "inc2734/wp-github-theme-updater",
+            "version": "3.1.12",
+            "version_normalized": "3.1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inc2734/wp-github-theme-updater.git",
+                "reference": "477a552d891cf6476c58874082569a3565925a06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inc2734/wp-github-theme-updater/zipball/477a552d891cf6476c58874082569a3565925a06",
+                "reference": "477a552d891cf6476c58874082569a3565925a06",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "wp-coding-standards/wpcs": "^3.1",
+                "yoast/phpunit-polyfills": "^2.0"
+            },
+            "time": "2024-11-13T04:03:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inc2734\\WP_GitHub_Theme_Updater\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Takashi Kitajima",
+                    "email": "inc@2inc.org"
+                }
+            ],
+            "description": "A library for WordPress that automatic theme updater with GitHub API.",
+            "support": {
+                "issues": "https://github.com/inc2734/wp-github-theme-updater/issues",
+                "source": "https://github.com/inc2734/wp-github-theme-updater/tree/3.1.12"
+            },
+            "install-path": "../inc2734/wp-github-theme-updater"
+        },
+        {
+            "name": "inc2734/wp-oembed-blog-card",
+            "version": "13.0.10",
+            "version_normalized": "13.0.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inc2734/wp-oembed-blog-card.git",
+                "reference": "294ee7cca2a33d3d20c2a7631195ea70b12d7533"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inc2734/wp-oembed-blog-card/zipball/294ee7cca2a33d3d20c2a7631195ea70b12d7533",
+                "reference": "294ee7cca2a33d3d20c2a7631195ea70b12d7533",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "wp-coding-standards/wpcs": "^3.1",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "time": "2024-09-02T23:41:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inc2734\\WP_OEmbed_Blog_Card\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Takashi Kitajima",
+                    "email": "inc@2inc.org"
+                }
+            ],
+            "description": "A library for WordPress oEmbed Blog Card.",
+            "support": {
+                "issues": "https://github.com/inc2734/wp-oembed-blog-card/issues",
+                "source": "https://github.com/inc2734/wp-oembed-blog-card/tree/13.0.10"
+            },
+            "install-path": "../inc2734/wp-oembed-blog-card"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

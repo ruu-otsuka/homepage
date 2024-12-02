@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "name": "unitone/container",
+  "title": "Container",
+  "description": "Keep the content area within a certain width, plus appropriate margins on the left and right.",
+  "attributes": {
+    "unitone": {
+      "type": "object",
+      "default": {
+        "gutters": "root",
+        "blockAlign": "center"
+      }
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=container]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "maxWidth": true,
+      "gutters": true,
+      "blockAlign": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

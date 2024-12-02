@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('lodash', 'react-jsx-runtime', 'wp-api-fetch', 'wp-block-editor', 'wp-components', 'wp-data', 'wp-deprecated', 'wp-element', 'wp-i18n', 'wp-preferences', 'wp-primitives', 'wp-url'), 'version' => 'b2d837418662925f3f4b');

@@ -1,0 +1,3701 @@
+# Copyright (C) 2024 Takashi Kitajima
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: unitone 15.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/unitone\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-28T10:56:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: unitone\n"
+
+#. Theme Name of the theme
+#: inc/block-categories.php:20
+#: inc/block-categories.php:31
+#: inc/block-categories.php:42
+#: inc/block-categories.php:53
+#: inc/block-styles.php:104
+#: dist/js/editor/editor.js:10
+msgid "unitone"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://unitone.2inc.org"
+msgstr ""
+
+#. Author of the theme
+msgid "Takashi Kitajima"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://2inc.org"
+msgstr ""
+
+#: App/Controller/Manager/Manager.php:42
+#: App/Controller/Manager/Manager.php:43
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "unitone Setup"
+msgstr ""
+
+#: App/Controller/Manager/Manager.php:353
+#: patterns/footer-2.php:21
+#: patterns/footer-3.php:50
+#: patterns/footer-3.php:58
+#: patterns/footer-3.php:66
+#: patterns/footer-4.php:30
+#: patterns/footer-4.php:38
+#: patterns/footer-4.php:46
+#: patterns/footer-5.php:28
+#: patterns/footer-5.php:36
+#: patterns/footer-5.php:44
+msgid "Home"
+msgstr ""
+
+#: App/Controller/Manager/Manager.php:396
+#: patterns/footer-2.php:24
+#: patterns/footer-3.php:53
+#: patterns/footer-3.php:61
+#: patterns/footer-3.php:69
+#: patterns/footer-4.php:33
+#: patterns/footer-4.php:41
+#: patterns/footer-4.php:49
+#: patterns/footer-5.php:31
+#: patterns/footer-5.php:39
+#: patterns/footer-5.php:47
+#: patterns/private/template/home/page-header/default.php:7
+#: patterns/private/template/home/page-header/image.php:22
+msgid "Blog"
+msgstr ""
+
+#: App/Controller/Manager/Manager.php:489
+msgid "unitone theme has been activated"
+msgstr ""
+
+#: App/Controller/Manager/Manager.php:492
+msgid "Let's start with the initial setup on the unitone setup screen."
+msgstr ""
+
+#: App/Controller/Manager/Manager.php:496
+msgid "Go to the setup screen"
+msgstr ""
+
+#. translators: %1$s: a start tag, %2$s: a end tag, %3$s: a start tag, %4$s: a end tag.
+#: App/Controller/Manager/Manager.php:519
+msgid "You have not set a valid license key. Setting a license key will allow you to use patterns registered in %3$sthe pattern library%4$s. It will also enable theme updates. A license key is issued when you subscribe to %1$sunitone license key subscription%2$s. The license key is set %5$shere%6$s."
+msgstr ""
+
+#: dist/blocks/child-pages/templates/box.php:57
+#: dist/blocks/child-pages/templates/box.php:61
+#: dist/blocks/child-pages/templates/panel.php:57
+#: dist/blocks/child-pages/templates/panel.php:61
+#: dist/blocks/child-pages/templates/rich-media.php:78
+#: dist/blocks/child-pages/templates/rich-media.php:83
+#: dist/blocks/decorator/index.js:1
+msgid "Learn more"
+msgstr ""
+
+#. translators: Accessibility text. %s: Parent page title.
+#: dist/blocks/mega-menu/render.php:9
+msgid "%s mega menu"
+msgstr ""
+
+#: inc/block-categories.php:23
+#: App/Controller/Manager/dist/js/app.js:7
+#: dist/js/editor/editor.js:1
+msgid "Layout"
+msgstr ""
+
+#: inc/block-categories.php:34
+msgid "Components"
+msgstr ""
+
+#: inc/block-categories.php:45
+msgid "Sections"
+msgstr ""
+
+#: inc/block-categories.php:56
+msgid "Widgets"
+msgstr ""
+
+#: inc/block-patterns.php:13
+msgid "Headers"
+msgstr ""
+
+#: inc/block-patterns.php:14
+msgid "Footers"
+msgstr ""
+
+#: inc/block-patterns.php:15
+msgid "Query"
+msgstr ""
+
+#: inc/block-patterns.php:16
+#: inc/template-part-areas.php:27
+#: inc/template-part-areas.php:162
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Pages"
+msgstr ""
+
+#: inc/block-patterns.php:17
+msgid "Templates"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Others"
+msgstr ""
+
+#: inc/block-patterns.php:51
+msgid "Main Area (One Column / Page Header (Image)) for 404"
+msgstr ""
+
+#: inc/block-patterns.php:57
+msgid "Main Area (Right Sidebar / Page Header (Image)) for 404"
+msgstr ""
+
+#: inc/block-patterns.php:63
+msgid "Main Area (Right Sidebar) for 404"
+msgstr ""
+
+#: inc/block-patterns.php:69
+msgid "Main Area for 404 (One Column)"
+msgstr ""
+
+#: inc/block-patterns.php:75
+msgid "Page Header (Image) for 404"
+msgstr ""
+
+#: inc/block-patterns.php:81
+msgid "Page Header (Wide) for 404"
+msgstr ""
+
+#: inc/block-patterns.php:87
+#: inc/template-part-areas.php:197
+msgid "Page Header for 404"
+msgstr ""
+
+#: inc/block-patterns.php:93
+msgid "Main Area for All Archives (One Column)"
+msgstr ""
+
+#: inc/block-patterns.php:99
+msgid "Main Area (One Column / Page Header (Image)) for All Archives"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Main Area (Right Sidebar / Page Header (Image)) for All Archives"
+msgstr ""
+
+#: inc/block-patterns.php:111
+msgid "Main Area (Right Sidebar) for All Archives"
+msgstr ""
+
+#: inc/block-patterns.php:117
+msgid "Page Header (Image) for All Archives"
+msgstr ""
+
+#: inc/block-patterns.php:123
+#: inc/template-part-areas.php:239
+msgid "Page Header for All Archives"
+msgstr ""
+
+#: inc/block-patterns.php:129
+msgid "Main Area (Blank) for Front Page"
+msgstr ""
+
+#: inc/block-patterns.php:135
+msgid "Main Area (One Column) for Blog Home"
+msgstr ""
+
+#: inc/block-patterns.php:141
+msgid "Main Area (One Column / Page Header (Image)) for Blog Home"
+msgstr ""
+
+#: inc/block-patterns.php:147
+msgid "Main Area (Right Sidebar / Page Header (Image)) for Blog Home"
+msgstr ""
+
+#: inc/block-patterns.php:153
+msgid "Main Area (Right Sidebar) for Blog Home"
+msgstr ""
+
+#: inc/block-patterns.php:159
+msgid "Page Header (Image) for Blog Home"
+msgstr ""
+
+#: inc/block-patterns.php:165
+#: inc/template-part-areas.php:211
+msgid "Page Header for Blog Home"
+msgstr ""
+
+#: inc/block-patterns.php:171
+msgid "Main Area (One Column) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:177
+msgid "Main Area (Blank) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:183
+msgid "Main Area (One Column / Page Header (Featured Image)) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:189
+msgid "Main Area (One Column / Page Header (Image)) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:195
+msgid "Main Area (One Column / Page Header (Slim)) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:201
+msgid "Main Area (One Column / Page Header (Wide)) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:207
+msgid "Main Area (Right Sidebar / Page Header (Featured Image)) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:213
+msgid "Main Area (Right Sidebar / Page Header (Image)) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:219
+msgid "Main Area (Right Sidebar) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:225
+#: inc/template-part-areas.php:169
+msgid "Page Header for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:231
+msgid "Page Header (Featured Image) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:237
+msgid "Page Header (Image) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:243
+msgid "Page Header (Slim) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:249
+msgid "Page Header (Wide) for Pages"
+msgstr ""
+
+#: inc/block-patterns.php:255
+msgid "Main Area (One Column) for Search Results"
+msgstr ""
+
+#: inc/block-patterns.php:261
+msgid "Main Area (One Column / Page Header (Image)) for Search Results"
+msgstr ""
+
+#: inc/block-patterns.php:267
+msgid "Main Area (Right Sidebar / Page Header (Image)) for Search Results"
+msgstr ""
+
+#: inc/block-patterns.php:273
+msgid "Main Area (Right Sidebar) for Search Results"
+msgstr ""
+
+#: inc/block-patterns.php:279
+#: inc/template-part-areas.php:253
+msgid "Page Header for Search Results"
+msgstr ""
+
+#: inc/block-patterns.php:285
+msgid "Page Header (Image) for Search Results"
+msgstr ""
+
+#: inc/block-patterns.php:291
+msgid "Main Area (One Column) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:297
+msgid "Main Area (Blank) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:303
+msgid "Main Area (One Column / Page Header (Featured Image)) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:309
+msgid "Main Area (Page Header (Image)) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:315
+msgid "Main Area (Page Header (Slim)) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:321
+msgid "Main Area (Page Header (Wide)) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:327
+msgid "Main Area (Right Sidebar / Page Header (Featured Image)) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:333
+msgid "Main Area (Right Sidebar / Page Header (Image)) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:339
+msgid "Main Area (Right Sidebar) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:345
+#: inc/template-part-areas.php:148
+msgid "Page Header for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:351
+msgid "Page Header (Featured Image) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:357
+msgid "Page Header (Image) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:363
+msgid "Page Header (Slim) for Single Posts"
+msgstr ""
+
+#: inc/block-patterns.php:369
+msgid "Page Header (Wide) for Single Posts"
+msgstr ""
+
+#: inc/block-styles.php:16
+msgid "Text"
+msgstr ""
+
+#: inc/block-styles.php:24
+msgid "Badge"
+msgstr ""
+
+#: inc/block-styles.php:32
+msgid "Outline"
+msgstr ""
+
+#: inc/block-styles.php:40
+#: inc/block-styles.php:128
+#: dist/js/editor/editor.js:10
+msgid "Underline"
+msgstr ""
+
+#: inc/block-styles.php:48
+#: inc/block-styles.php:152
+#: dist/js/editor/editor.js:10
+msgid "Bordered"
+msgstr ""
+
+#: inc/block-styles.php:56
+#: dist/js/editor/editor.js:10
+msgid "Stripe"
+msgstr ""
+
+#: inc/block-styles.php:64
+msgid "Block link"
+msgstr ""
+
+#: inc/block-styles.php:72
+msgid "Block link (Underline)"
+msgstr ""
+
+#: inc/block-styles.php:80
+#: inc/block-styles.php:96
+msgid "Block link (Bordered)"
+msgstr ""
+
+#: inc/block-styles.php:88
+msgid "Block link (Stripe)"
+msgstr ""
+
+#: inc/block-styles.php:112
+msgid "unitone (Accordion)"
+msgstr ""
+
+#: inc/block-styles.php:120
+msgid "Cover"
+msgstr ""
+
+#: inc/block-styles.php:136
+msgid "Vertical fill"
+msgstr ""
+
+#: inc/block-styles.php:144
+msgid "Vertical line"
+msgstr ""
+
+#: inc/global-styles.php:129
+msgctxt "Color name"
+msgid "Twilight (Light)"
+msgstr ""
+
+#: inc/global-styles.php:134
+msgctxt "Color name"
+msgid "Twilight"
+msgstr ""
+
+#: inc/global-styles.php:139
+msgctxt "Color name"
+msgid "Twilight (Heavy)"
+msgstr ""
+
+#: inc/global-styles.php:144
+msgctxt "Color name"
+msgid "Dimmed (Light)"
+msgstr ""
+
+#: inc/global-styles.php:149
+msgctxt "Color name"
+msgid "Dimmed"
+msgstr ""
+
+#: inc/global-styles.php:154
+msgctxt "Color name"
+msgid "Dimmed (Heavy)"
+msgstr ""
+
+#: inc/global-styles.php:159
+msgctxt "Color name"
+msgid "Pale Red"
+msgstr ""
+
+#: inc/global-styles.php:164
+msgctxt "Color name"
+msgid "Bright Red"
+msgstr ""
+
+#: inc/global-styles.php:169
+msgctxt "Color name"
+msgid "Light Red"
+msgstr ""
+
+#: inc/global-styles.php:174
+msgctxt "Color name"
+msgid "Red"
+msgstr ""
+
+#: inc/global-styles.php:179
+msgctxt "Color name"
+msgid "Dark Red"
+msgstr ""
+
+#: inc/global-styles.php:184
+msgctxt "Color name"
+msgid "Heavy Red"
+msgstr ""
+
+#: inc/global-styles.php:189
+msgctxt "Color name"
+msgid "Pale Orange"
+msgstr ""
+
+#: inc/global-styles.php:194
+msgctxt "Color name"
+msgid "Bright Orange"
+msgstr ""
+
+#: inc/global-styles.php:199
+msgctxt "Color name"
+msgid "Light Orange"
+msgstr ""
+
+#: inc/global-styles.php:204
+msgctxt "Color name"
+msgid "Orange"
+msgstr ""
+
+#: inc/global-styles.php:209
+msgctxt "Color name"
+msgid "Dark Orange"
+msgstr ""
+
+#: inc/global-styles.php:214
+msgctxt "Color name"
+msgid "Heavy Orange"
+msgstr ""
+
+#: inc/global-styles.php:219
+msgctxt "Color name"
+msgid "Pale Yellow"
+msgstr ""
+
+#: inc/global-styles.php:224
+msgctxt "Color name"
+msgid "Bright Yellow"
+msgstr ""
+
+#: inc/global-styles.php:229
+msgctxt "Color name"
+msgid "Light Yellow"
+msgstr ""
+
+#: inc/global-styles.php:234
+msgctxt "Color name"
+msgid "Yellow"
+msgstr ""
+
+#: inc/global-styles.php:239
+msgctxt "Color name"
+msgid "Dark Yellow"
+msgstr ""
+
+#: inc/global-styles.php:244
+msgctxt "Color name"
+msgid "Heavy Yellow"
+msgstr ""
+
+#: inc/global-styles.php:249
+msgctxt "Color name"
+msgid "Pale Lime"
+msgstr ""
+
+#: inc/global-styles.php:254
+msgctxt "Color name"
+msgid "Bright Lime"
+msgstr ""
+
+#: inc/global-styles.php:259
+msgctxt "Color name"
+msgid "Light Lime"
+msgstr ""
+
+#: inc/global-styles.php:264
+msgctxt "Color name"
+msgid "Lime"
+msgstr ""
+
+#: inc/global-styles.php:269
+msgctxt "Color name"
+msgid "Dark Lime"
+msgstr ""
+
+#: inc/global-styles.php:274
+msgctxt "Color name"
+msgid "Heavy Lime"
+msgstr ""
+
+#: inc/global-styles.php:279
+msgctxt "Color name"
+msgid "Pale Green"
+msgstr ""
+
+#: inc/global-styles.php:284
+msgid "Bright Green"
+msgstr ""
+
+#: inc/global-styles.php:289
+msgctxt "Color name"
+msgid "Light Green"
+msgstr ""
+
+#: inc/global-styles.php:294
+msgctxt "Color name"
+msgid "Green"
+msgstr ""
+
+#: inc/global-styles.php:299
+msgctxt "Color name"
+msgid "Dark Green"
+msgstr ""
+
+#: inc/global-styles.php:304
+msgctxt "Color name"
+msgid "Heavy Green"
+msgstr ""
+
+#: inc/global-styles.php:309
+msgctxt "Color name"
+msgid "Pale Teal"
+msgstr ""
+
+#: inc/global-styles.php:314
+msgctxt "Color name"
+msgid "Bright Teal"
+msgstr ""
+
+#: inc/global-styles.php:319
+msgctxt "Color name"
+msgid "Light Teal"
+msgstr ""
+
+#: inc/global-styles.php:324
+msgctxt "Color name"
+msgid "Teal"
+msgstr ""
+
+#: inc/global-styles.php:329
+msgctxt "Color name"
+msgid "Dark Teal"
+msgstr ""
+
+#: inc/global-styles.php:334
+msgctxt "Color name"
+msgid "Heavy Teal"
+msgstr ""
+
+#: inc/global-styles.php:339
+msgctxt "Color name"
+msgid "Pale Cyan"
+msgstr ""
+
+#: inc/global-styles.php:344
+msgctxt "Color name"
+msgid "Bright Cyan"
+msgstr ""
+
+#: inc/global-styles.php:349
+msgctxt "Color name"
+msgid "Light Cyan"
+msgstr ""
+
+#: inc/global-styles.php:354
+msgctxt "Color name"
+msgid "Cyan"
+msgstr ""
+
+#: inc/global-styles.php:359
+msgctxt "Color name"
+msgid "Dark Cyan"
+msgstr ""
+
+#: inc/global-styles.php:364
+msgctxt "Color name"
+msgid "Heavy Cyan"
+msgstr ""
+
+#: inc/global-styles.php:369
+msgctxt "Color name"
+msgid "Pale Blue"
+msgstr ""
+
+#: inc/global-styles.php:374
+msgctxt "Color name"
+msgid "Bright Blue"
+msgstr ""
+
+#: inc/global-styles.php:379
+msgctxt "Color name"
+msgid "Light Blue"
+msgstr ""
+
+#: inc/global-styles.php:384
+msgctxt "Color name"
+msgid "Blue"
+msgstr ""
+
+#: inc/global-styles.php:389
+msgctxt "Color name"
+msgid "Dark Blue"
+msgstr ""
+
+#: inc/global-styles.php:394
+msgctxt "Color name"
+msgid "Heavy Blue"
+msgstr ""
+
+#: inc/global-styles.php:399
+msgctxt "Color name"
+msgid "Pale Indigo"
+msgstr ""
+
+#: inc/global-styles.php:404
+msgctxt "Color name"
+msgid "Bright Indigo"
+msgstr ""
+
+#: inc/global-styles.php:409
+msgctxt "Color name"
+msgid "Light Indigo"
+msgstr ""
+
+#: inc/global-styles.php:414
+msgctxt "Color name"
+msgid "Indigo"
+msgstr ""
+
+#: inc/global-styles.php:419
+msgctxt "Color name"
+msgid "Dark Indigo"
+msgstr ""
+
+#: inc/global-styles.php:424
+msgctxt "Color name"
+msgid "Heavy Indigo"
+msgstr ""
+
+#: inc/global-styles.php:429
+msgctxt "Color name"
+msgid "Pale Violet"
+msgstr ""
+
+#: inc/global-styles.php:434
+msgctxt "Color name"
+msgid "Bright Violet"
+msgstr ""
+
+#: inc/global-styles.php:439
+msgctxt "Color name"
+msgid "Light Violet"
+msgstr ""
+
+#: inc/global-styles.php:444
+msgctxt "Color name"
+msgid "Violet"
+msgstr ""
+
+#: inc/global-styles.php:449
+msgctxt "Color name"
+msgid "Dark Violet"
+msgstr ""
+
+#: inc/global-styles.php:454
+msgctxt "Color name"
+msgid "Heavy Violet"
+msgstr ""
+
+#: inc/global-styles.php:459
+msgctxt "Color name"
+msgid "Pale Purple"
+msgstr ""
+
+#: inc/global-styles.php:464
+msgctxt "Color name"
+msgid "Bright Purple"
+msgstr ""
+
+#: inc/global-styles.php:469
+msgctxt "Color name"
+msgid "Light Purple"
+msgstr ""
+
+#: inc/global-styles.php:474
+msgctxt "Color name"
+msgid "Purple"
+msgstr ""
+
+#: inc/global-styles.php:479
+msgctxt "Color name"
+msgid "Dark Purple"
+msgstr ""
+
+#: inc/global-styles.php:484
+msgctxt "Color name"
+msgid "Heavy Purple"
+msgstr ""
+
+#: inc/global-styles.php:489
+msgctxt "Color name"
+msgid "Pale Pink"
+msgstr ""
+
+#: inc/global-styles.php:494
+msgctxt "Color name"
+msgid "Bright Pink"
+msgstr ""
+
+#: inc/global-styles.php:499
+msgctxt "Color name"
+msgid "Light Pink"
+msgstr ""
+
+#: inc/global-styles.php:504
+msgctxt "Color name"
+msgid "Pink"
+msgstr ""
+
+#: inc/global-styles.php:509
+msgctxt "Color name"
+msgid "Dark Pink"
+msgstr ""
+
+#: inc/global-styles.php:514
+msgctxt "Color name"
+msgid "Heavy Pink"
+msgstr ""
+
+#: inc/template-part-areas.php:20
+#: inc/template-part-areas.php:141
+msgid "Single Posts"
+msgstr ""
+
+#: inc/template-part-areas.php:34
+#: inc/template-part-areas.php:183
+msgid "404"
+msgstr ""
+
+#: inc/template-part-areas.php:41
+msgid "Front Page"
+msgstr ""
+
+#: inc/template-part-areas.php:48
+#: inc/template-part-areas.php:204
+msgid "Blog Home"
+msgstr ""
+
+#: inc/template-part-areas.php:55
+#: inc/template-part-areas.php:225
+msgid "All Archives"
+msgstr ""
+
+#: inc/template-part-areas.php:62
+#: inc/template-part-areas.php:246
+msgid "Search Results"
+msgstr ""
+
+#: inc/template-part-areas.php:69
+#: inc/template-part-areas.php:267
+msgid "Product Catalog"
+msgstr ""
+
+#: inc/template-part-areas.php:76
+#: inc/template-part-areas.php:288
+msgid "Single Products"
+msgstr ""
+
+#: inc/template-part-areas.php:83
+#: inc/template-part-areas.php:309
+msgid "bbPress"
+msgstr ""
+
+#: inc/template-part-areas.php:90
+msgid "Cart"
+msgstr ""
+
+#: inc/template-part-areas.php:97
+msgid "Checkout"
+msgstr ""
+
+#: inc/template-part-areas.php:104
+msgid "Order Confirmation"
+msgstr ""
+
+#: inc/template-part-areas.php:111
+#: inc/template-part-areas.php:330
+msgid "Comments"
+msgstr ""
+
+#: inc/template-part-areas.php:118
+#: dist/blocks/slider/index.js:1
+msgid "Loop"
+msgstr ""
+
+#: inc/template-part-areas.php:155
+msgid "Main Area for Single Posts"
+msgstr ""
+
+#: inc/template-part-areas.php:176
+msgid "Main Area for Pages"
+msgstr ""
+
+#: inc/template-part-areas.php:190
+msgid "Main Area for 404"
+msgstr ""
+
+#: inc/template-part-areas.php:218
+msgid "Main Area for Blog Home"
+msgstr ""
+
+#: inc/template-part-areas.php:232
+msgid "Main Area for All Archives"
+msgstr ""
+
+#: inc/template-part-areas.php:260
+msgid "Main Area of Search Results"
+msgstr ""
+
+#: inc/template-part-areas.php:274
+msgid "Main Area for Product Catalog"
+msgstr ""
+
+#: inc/template-part-areas.php:281
+msgid "Page Header for Product Catalog"
+msgstr ""
+
+#: inc/template-part-areas.php:295
+msgid "Page Header for Single Products"
+msgstr ""
+
+#: inc/template-part-areas.php:302
+msgid "Main Area for Single Products"
+msgstr ""
+
+#: inc/template-part-areas.php:316
+msgid "Page Header for bbPress"
+msgstr ""
+
+#: inc/template-part-areas.php:323
+msgid "Main Area for bbPress"
+msgstr ""
+
+#: inc/template-part-areas.php:337
+msgid "Footer breadcrumbs"
+msgstr ""
+
+#: inc/variations.php:36
+msgid "Share Button"
+msgstr ""
+
+#: patterns/footer-1.php
+msgctxt "Pattern title"
+msgid "Footer 1"
+msgstr ""
+
+#: patterns/footer-2.php
+msgctxt "Pattern title"
+msgid "Footer 2"
+msgstr ""
+
+#: patterns/footer-2.php:22
+#: patterns/footer-3.php:51
+#: patterns/footer-3.php:59
+#: patterns/footer-3.php:67
+#: patterns/footer-4.php:31
+#: patterns/footer-4.php:39
+#: patterns/footer-4.php:47
+#: patterns/footer-5.php:29
+#: patterns/footer-5.php:37
+#: patterns/footer-5.php:45
+msgid "About"
+msgstr ""
+
+#: patterns/footer-2.php:23
+#: patterns/footer-3.php:52
+#: patterns/footer-3.php:60
+#: patterns/footer-3.php:68
+#: patterns/footer-4.php:32
+#: patterns/footer-4.php:40
+#: patterns/footer-4.php:48
+#: patterns/footer-5.php:30
+#: patterns/footer-5.php:38
+#: patterns/footer-5.php:46
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-2.php:25
+#: patterns/footer-3.php:54
+#: patterns/footer-3.php:62
+#: patterns/footer-3.php:70
+#: patterns/footer-4.php:34
+#: patterns/footer-4.php:42
+#: patterns/footer-4.php:50
+#: patterns/footer-5.php:32
+#: patterns/footer-5.php:40
+#: patterns/footer-5.php:48
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-3.php
+msgctxt "Pattern title"
+msgid "Footer 3"
+msgstr ""
+
+#: patterns/footer-4.php
+msgctxt "Pattern title"
+msgid "Footer 4"
+msgstr ""
+
+#: patterns/footer-5.php
+msgctxt "Pattern title"
+msgid "Footer 5"
+msgstr ""
+
+#: patterns/header-1row.php
+msgctxt "Pattern title"
+msgid "Header (1 row)"
+msgstr ""
+
+#: patterns/header-2rows.php
+msgctxt "Pattern title"
+msgid "Header (2 rows)"
+msgstr ""
+
+#: patterns/header-simple.php
+msgctxt "Pattern title"
+msgid "Header (Simple)"
+msgstr ""
+
+#: patterns/header-vertical.php
+msgctxt "Pattern title"
+msgid "Header (Vertical)"
+msgstr ""
+
+#: patterns/image.php
+msgctxt "Pattern title"
+msgid "Image"
+msgstr ""
+
+#: patterns/page-about-us.php
+msgctxt "Pattern title"
+msgid "About Us"
+msgstr ""
+
+#: patterns/page-homepage-1.php
+msgctxt "Pattern title"
+msgid "Homepage 1"
+msgstr ""
+
+#: patterns/page-homepage-2.php
+msgctxt "Pattern title"
+msgid "Homepage 2"
+msgstr ""
+
+#: patterns/page-plans.php
+msgctxt "Pattern title"
+msgid "Plans"
+msgstr ""
+
+#: patterns/page-services.php
+msgctxt "Pattern title"
+msgid "Services"
+msgstr ""
+
+#: patterns/private/template/404/main/one-column-page-header-image.php:13
+#: patterns/private/template/404/main/one-column.php:13
+#: patterns/private/template/404/main/right-sidebar-page-header-image.php:19
+#: patterns/private/template/404/main/right-sidebar.php:19
+msgid "Woops! Page not found. The page you are looking for may be moved or deleted. Please search this search box."
+msgstr ""
+
+#: patterns/private/template/search/page-header/default.php:7
+#: patterns/private/template/search/page-header/image.php:22
+msgid "Search results"
+msgstr ""
+
+#: patterns/query-1.php
+msgctxt "Pattern title"
+msgid "Query (Underline)"
+msgstr ""
+
+#: patterns/query-2.php
+msgctxt "Pattern title"
+msgid "Query (Rich media / Block link)"
+msgstr ""
+
+#: patterns/query-3.php
+msgctxt "Pattern title"
+msgid "Query (Rich media / Block link / Bordered)"
+msgstr ""
+
+#: patterns/query-4.php
+msgctxt "Pattern title"
+msgid "Query (Text / 2rows / Underline)"
+msgstr ""
+
+#: patterns/query-5.php
+msgctxt "Pattern title"
+msgid "Query (Text / Underline)"
+msgstr ""
+
+#: patterns/share-buttons.php
+msgctxt "Pattern title"
+msgid "Share buttons"
+msgstr ""
+
+#: patterns/share-buttons.php:11
+#: dist/variations/variations.js:1
+msgid "Post this entry to X"
+msgstr ""
+
+#: patterns/share-buttons.php:15
+#: dist/variations/variations.js:1
+msgid "Share this entry to Facebook"
+msgstr ""
+
+#: patterns/share-buttons.php:19
+#: dist/variations/variations.js:1
+msgid "Add this entry to Hatena Bookmarks"
+msgstr ""
+
+#: patterns/share-buttons.php:23
+#: dist/variations/variations.js:1
+msgid "Share this entry to LINE"
+msgstr ""
+
+#: patterns/sidebar-bbpress.php
+msgctxt "Pattern title"
+msgid "Sidebar (for bbPress)"
+msgstr ""
+
+#: patterns/sidebar-bbpress.php:10
+msgid "Login"
+msgstr ""
+
+#: patterns/sidebar-bbpress.php:11
+msgid "Statistics"
+msgstr ""
+
+#: patterns/sidebar-bbpress.php:12
+msgid "Recent Topics"
+msgstr ""
+
+#: patterns/sidebar-bbpress.php:13
+msgid "Forum Search"
+msgstr ""
+
+#: patterns/sidebar-blog.php
+msgctxt "Pattern title"
+msgid "Sidebar (for Blog)"
+msgstr ""
+
+#: patterns/sidebar-blog.php:13
+msgid "Latest posts"
+msgstr ""
+
+#: patterns/sidebar-blog.php:23
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar-blog.php:33
+msgid "Archives"
+msgstr ""
+
+#: patterns/template-404-left-header-page-header-image.php
+msgctxt "Pattern title"
+msgid "404: Left Header / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-404-left-header.php
+msgctxt "Pattern title"
+msgid "404: Left Header"
+msgstr ""
+
+#: patterns/template-404-one-column-page-header-image.php
+msgctxt "Pattern title"
+msgid "404: One Column / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-404-one-column.php
+msgctxt "Pattern title"
+msgid "404: One Column"
+msgstr ""
+
+#: patterns/template-404-right-sidebar-page-header-image.php
+msgctxt "Pattern title"
+msgid "404: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-404-right-sidebar.php
+msgctxt "Pattern title"
+msgid "404: Right Sidebar"
+msgstr ""
+
+#: patterns/template-archive-left-header-page-header-image.php
+msgctxt "Pattern title"
+msgid "All Archives: Left Header / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-archive-left-header.php
+msgctxt "Pattern title"
+msgid "All Archives: Left Header"
+msgstr ""
+
+#: patterns/template-archive-one-column-page-header-image.php
+msgctxt "Pattern title"
+msgid "All Archives: One Column / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-archive-one-column.php
+msgctxt "Pattern title"
+msgid "All Archives: One Column"
+msgstr ""
+
+#: patterns/template-archive-right-sidebar-page-header-image.php
+msgctxt "Pattern title"
+msgid "All Archives: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-archive-right-sidebar.php
+msgctxt "Pattern title"
+msgid "All Archives: Right Sidebar"
+msgstr ""
+
+#: patterns/template-front-page-header-footer.php
+msgctxt "Pattern title"
+msgid "Front Page: Only Header and Footer"
+msgstr ""
+
+#: patterns/template-front-page-left-header.php
+msgctxt "Pattern title"
+msgid "Front Page: Left Header"
+msgstr ""
+
+#: patterns/template-home-left-header-page-header-image.php
+msgctxt "Pattern title"
+msgid "Blog Home: Left Header / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-home-left-header.php
+msgctxt "Pattern title"
+msgid "Blog Home: Left Header"
+msgstr ""
+
+#: patterns/template-home-one-column-page-header-image.php
+msgctxt "Pattern title"
+msgid "Blog Home: One Column / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-home-one-column.php
+msgctxt "Pattern title"
+msgid "Blog Home: One Column"
+msgstr ""
+
+#: patterns/template-home-right-sidebar-page-header-image.php
+msgctxt "Pattern title"
+msgid "Blog Home: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-home-right-sidebar.php
+msgctxt "Pattern title"
+msgid "Blog Home: Right Sidebar"
+msgstr ""
+
+#: patterns/template-page-blank.php
+msgctxt "Pattern title"
+msgid "Pages: Blank"
+msgstr ""
+
+#: patterns/template-page-header-footer.php
+msgctxt "Pattern title"
+msgid "Pages: Only Header and Footer"
+msgstr ""
+
+#: patterns/template-page-left-header-header-footer.php
+msgctxt "Pattern title"
+msgid "Pages: Left Header / Only Header and Footer"
+msgstr ""
+
+#: patterns/template-page-left-header-page-header-featured.php
+msgctxt "Pattern title"
+msgid "Pages: Left Header / Page Header (Featured Image)"
+msgstr ""
+
+#: patterns/template-page-left-header-page-header-image.php
+msgctxt "Pattern title"
+msgid "Pages: Left Header / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-page-left-header.php
+msgctxt "Pattern title"
+msgid "Pages: Left Header"
+msgstr ""
+
+#: patterns/template-page-one-column-page-header-featured.php
+msgctxt "Pattern title"
+msgid "Pages: One Column / Page Header (Featured Image)"
+msgstr ""
+
+#: patterns/template-page-one-column-page-header-image.php
+msgctxt "Pattern title"
+msgid "Pages: One Column / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-page-one-column-page-header-slim.php
+msgctxt "Pattern title"
+msgid "Pages: One Column / Page Header (Slim)"
+msgstr ""
+
+#: patterns/template-page-one-column-page-header-wide.php
+msgctxt "Pattern title"
+msgid "Pages: One Column / Page Header (Wide)"
+msgstr ""
+
+#: patterns/template-page-one-column.php
+msgctxt "Pattern title"
+msgid "Pages: One Column"
+msgstr ""
+
+#: patterns/template-page-right-sidebar-page-header-featured.php
+msgctxt "Pattern title"
+msgid "Pages: Right Sidebar / Page Header (Featured Image)"
+msgstr ""
+
+#: patterns/template-page-right-sidebar-page-header-image.php
+msgctxt "Pattern title"
+msgid "Pages: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-page-right-sidebar.php
+msgctxt "Pattern title"
+msgid "Pages: Right Sidebar"
+msgstr ""
+
+#: patterns/template-search-left-header-page-header-image.php
+msgctxt "Pattern title"
+msgid "Search Results: Left Header / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-search-left-header.php
+msgctxt "Pattern title"
+msgid "Search Results: Left Header"
+msgstr ""
+
+#: patterns/template-search-one-column-page-header-image.php
+msgctxt "Pattern title"
+msgid "Search Results: One Column / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-search-one-column.php
+msgctxt "Pattern title"
+msgid "Search Results: One Column"
+msgstr ""
+
+#: patterns/template-search-right-sidebar-page-header-image.php
+msgctxt "Pattern title"
+msgid "Search Results: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-search-right-sidebar.php
+msgctxt "Pattern title"
+msgid "Search Results: Right Sidebar"
+msgstr ""
+
+#: patterns/template-single-header-footer.php
+msgctxt "Pattern title"
+msgid "Single Posts: Only Header and Footer"
+msgstr ""
+
+#: patterns/template-single-left-header-header-footer.php
+msgctxt "Pattern title"
+msgid "Single Posts: Left Header / Only Header and Footer"
+msgstr ""
+
+#: patterns/template-single-left-header-page-header-featured.php
+msgctxt "Pattern title"
+msgid "Single Posts: Left Header / Page Header (Featured Image)"
+msgstr ""
+
+#: patterns/template-single-left-header-page-header-image.php
+msgctxt "Pattern title"
+msgid "Single Posts: Left Header / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-single-left-header.php
+msgctxt "Pattern title"
+msgid "Single Posts: Left Header"
+msgstr ""
+
+#: patterns/template-single-one-column-page-header-featured.php
+msgctxt "Pattern title"
+msgid "Single Posts: One Column / Page Header (Featured Image)"
+msgstr ""
+
+#: patterns/template-single-one-column-page-header-image.php
+msgctxt "Pattern title"
+msgid "Single Posts: One Column / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-single-one-column-page-header-slim.php
+msgctxt "Pattern title"
+msgid "Single Posts: One Column / Page Header (Slim)"
+msgstr ""
+
+#: patterns/template-single-one-column-page-header-wide.php
+msgctxt "Pattern title"
+msgid "Single Posts: One Column / Page Header (Wide)"
+msgstr ""
+
+#: patterns/template-single-one-column.php
+msgctxt "Pattern title"
+msgid "Single Posts: One Column"
+msgstr ""
+
+#: patterns/template-single-right-sidebar-page-header-featured.php
+msgctxt "Pattern title"
+msgid "Single Posts: Right Sidebar / Page Header (Featured Image)"
+msgstr ""
+
+#: patterns/template-single-right-sidebar-page-header-image.php
+msgctxt "Pattern title"
+msgid "Single Posts: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: patterns/template-single-right-sidebar.php
+msgctxt "Pattern title"
+msgid "Single Posts: Right Sidebar"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+msgid "License"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+msgid "License Key"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+msgid "If your license key is valid, you will be able to use unitone more conveniently."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+msgid "If the license key entered is valid, the theme can be updated."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+#: App/Controller/Manager/dist/js/app.js:7
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Save Settings"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+#: App/Controller/Manager/dist/js/app.js:7
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Reset All Settings"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+msgid "Pattern Library"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:1
+msgid "Cache"
+msgstr ""
+
+#. translators: %1$s: <a>, %2$s: </a>
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "If the license key is valid, patterns from %1$sthe pattern library%2$s can be used."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "Pattern data retrieved from the pattern library is cached for a certain period of time to speed up operation, so new patterns may not be reflected immediately."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "To force reacquisition of the latest pattern data, click the button below."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "Retrieve patterns from the pattern library"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "Brand"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "Site Logo"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "Display an image to represent this site."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Remove Image"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Select Image"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Site Icon"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:4
+msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
+msgstr ""
+
+#. translators: %s: Site icon size in pixels.
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Site Icons should be square and at least %s pixels."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Colors"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Accent Color"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Background Color"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Text Color"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Link Color"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Link Color (:hover)"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Link Color (:focus)"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Typography"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Font"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Base Font Size"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Half Leading"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Size of h2"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Size of h3"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Size of h4"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Size of h5"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Size of h6"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Size"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+#: dist/js/editor/editor.js:1
+msgid "Content Width"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+#: dist/js/editor/editor.js:1
+msgid "Wide"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Your Homepage Displays"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Homepage Type"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Latest Posts"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Static Page"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Homepage"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Sample 1"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Sample 2"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Blank"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+msgid "Select existing page for the homepage"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:7
+#: App/Controller/Manager/dist/js/app.js:8
+msgid "— Select —"
+msgstr ""
+
+#. translators: %1$s: Post ID
+#: App/Controller/Manager/dist/js/app.js:8
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "#%1$s (No title)"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:8
+msgid "Posts Page"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:8
+msgid "Create new page for the posts page"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:8
+msgid "Select existing page for the posts page"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Posts"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Products"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Custom Templates"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Activate the custom template you wish to use. You cannot deactivate a custom template that is already in use."
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Blog Card"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Style"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+#: dist/blocks/layers/index.js:1
+#: dist/blocks/section/index.js:1
+msgid "Default"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Background color (Accent color)"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Border (Accent color)"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Dark"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Media"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Simple"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Go to the Dashboard"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "View site (opens in a new tab)"
+msgstr ""
+
+#: App/Controller/Manager/dist/js/app.js:9
+msgid "Navigation"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+#: dist/blocks/breadcrumbs/index.js:1
+#: dist/blocks/center/index.js:1
+#: dist/blocks/child-pages/index.js:1
+#: dist/blocks/cluster-divided/index.js:1
+#: dist/blocks/cover-content/index.js:1
+#: dist/blocks/decorator/index.js:1
+#: dist/blocks/flex-divided/index.js:1
+#: dist/blocks/flex/index.js:1
+#: dist/blocks/frame/index.js:1
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/blocks/layers/index.js:37
+#: dist/blocks/reel/index.js:1
+#: dist/blocks/responsive-grid-divided/index.js:1
+#: dist/blocks/responsive-grid/index.js:1
+#: dist/blocks/section/index.js:13
+#: dist/blocks/slider/index.js:1
+#: dist/blocks/stack-divided/index.js:1
+#: dist/blocks/stack/index.js:1
+#: dist/blocks/switcher/index.js:1
+#: dist/blocks/text/index.js:1
+#: dist/blocks/vertical-writing/index.js:1
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Settings"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Mark"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Chevron down"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "cross"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Question"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Using label of the question"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Width"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Answer"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Using labe of the answer"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Q"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "Enter summary here"
+msgstr ""
+
+#: dist/blocks/accordion/index.js:1
+msgid "A"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/index.js:1
+#: dist/js/editor/editor.js:10
+msgid "Divider"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/index.js:1
+#: dist/js/editor/editor.js:10
+msgid "Slash"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/index.js:1
+msgid "Hyphen"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/index.js:1
+msgid "Underscore"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/index.js:1
+msgid "Greater than"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/index.js:1
+msgid "Arrow"
+msgstr ""
+
+#: dist/blocks/center/index.js:1
+msgid "Text is also centered"
+msgstr ""
+
+#: dist/blocks/child-pages/index.js:1
+msgid "Show top-level child pages"
+msgstr ""
+
+#: dist/blocks/child-pages/index.js:1
+msgid "Specify the parent page"
+msgstr ""
+
+#: dist/blocks/child-pages/index.js:1
+msgid "If not specified, a list of child pages of this page will be displayed."
+msgstr ""
+
+#: dist/blocks/child-pages/index.js:1
+msgid "Search"
+msgstr ""
+
+#: dist/blocks/child-pages/index.js:1
+#: dist/blocks/responsive-grid-divided/index.js:1
+#: dist/blocks/responsive-grid/index.js:1
+msgid "Column min width"
+msgstr ""
+
+#. translators: %1$s: <code>, %2$s: </code>
+#: dist/blocks/child-pages/index.js:4
+#: dist/blocks/responsive-grid-divided/index.js:4
+#: dist/blocks/responsive-grid/index.js:4
+msgid "Inside the %1$sgrid-template-columns%2$s formula"
+msgstr ""
+
+#: dist/blocks/cluster-divided/index.js:1
+msgid "Cluster (Divider: stripe)"
+msgstr ""
+
+#: dist/blocks/cluster-divided/index.js:1
+msgid "Cluster (Divider: slash)"
+msgstr ""
+
+#: dist/blocks/cluster-divided/index.js:1
+msgid "Cluster (Divider: bordered)"
+msgstr ""
+
+#: dist/blocks/cluster-divided/index.js:1
+#: dist/blocks/decorator/index.js:1
+#: dist/blocks/flex-divided/index.js:1
+#: dist/blocks/flex/index.js:1
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/blocks/responsive-grid-divided/index.js:1
+#: dist/blocks/section/index.js:13
+#: dist/blocks/stack-divided/index.js:1
+#: dist/blocks/stack/index.js:1
+msgid "HTML element"
+msgstr ""
+
+#: dist/blocks/cover-content/index.js:1
+msgid "Cover content (Top)"
+msgstr ""
+
+#: dist/blocks/cover-content/index.js:1
+msgid "Cover content (Center)"
+msgstr ""
+
+#: dist/blocks/cover-content/index.js:1
+msgid "Cover content (Bottom)"
+msgstr ""
+
+#: dist/blocks/cover-content/index.js:1
+msgid "Fill a space"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Top)"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Center)"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Bottom)"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Top / Center)"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Top / Bottom)"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Center / Bottom)"
+msgstr ""
+
+#: dist/blocks/cover/index.js:1
+msgid "Cover (Top / Center / Bottom)"
+msgstr ""
+
+#: dist/blocks/flex-divided/index.js:1
+msgid "Flex (Divider: stripe)"
+msgstr ""
+
+#: dist/blocks/flex-divided/index.js:1
+msgid "Flex (Divider: slash)"
+msgstr ""
+
+#: dist/blocks/flex-divided/index.js:1
+msgid "Flex (Divider: bordered)"
+msgstr ""
+
+#: dist/blocks/frame/index.js:1
+msgid "Framed image"
+msgstr ""
+
+#: dist/blocks/frame/index.js:1
+msgid "Framed video"
+msgstr ""
+
+#: dist/blocks/frame/index.js:1
+msgid "Framed post featured image"
+msgstr ""
+
+#: dist/blocks/frame/index.js:1
+msgid "Preferred aspect ratio"
+msgstr ""
+
+#: dist/blocks/frame/index.js:1
+msgid "Switch aspect ratio when portrait"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Desktop"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Tablet / Mobile"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Mobile"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Switch to settings based on device size"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+msgid "Grid (Divider: stripe)"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+msgid "Grid (Divider: underline)"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+msgid "Grid (Divider: bordered)"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+msgid "Minimum width"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/blocks/layers/index.js:37
+msgid "Columns count"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+msgid "Free input"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Auto repeat"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+msgid "For tablet / mobile"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+msgid "For mobile"
+msgstr ""
+
+#: dist/blocks/grid-divided/index.js:1
+#: dist/blocks/grid/index.js:1
+#: dist/blocks/layers/index.js:37
+msgid "Rows count"
+msgstr ""
+
+#: dist/blocks/gutters/index.js:1
+#: dist/blocks/section/index.js:13
+msgid "Top and bottom padding"
+msgstr ""
+
+#: dist/blocks/layers/index.js:1
+msgid "Background image"
+msgstr ""
+
+#: dist/blocks/layers/index.js:1
+msgid "Background framed image"
+msgstr ""
+
+#. translators: %1$s: position
+#: dist/blocks/layers/index.js:4
+#: dist/blocks/layers/index.js:7
+#: dist/blocks/layers/index.js:10
+#: dist/blocks/layers/index.js:13
+#: dist/blocks/layers/index.js:16
+#: dist/blocks/layers/index.js:19
+#: dist/blocks/layers/index.js:22
+#: dist/blocks/layers/index.js:25
+msgid "Hero (%1$s)"
+msgstr ""
+
+#: dist/blocks/layers/index.js:4
+msgid "Top / Left"
+msgstr ""
+
+#: dist/blocks/layers/index.js:7
+msgid "Top / Right"
+msgstr ""
+
+#: dist/blocks/layers/index.js:10
+#: dist/blocks/layers/index.js:16
+#: dist/blocks/layers/index.js:22
+msgid "Bottom / Left"
+msgstr ""
+
+#: dist/blocks/layers/index.js:13
+#: dist/blocks/layers/index.js:19
+#: dist/blocks/layers/index.js:25
+msgid "Bottom / Right"
+msgstr ""
+
+#. translators: %1$s: position
+#: dist/blocks/layers/index.js:28
+#: dist/blocks/layers/index.js:31
+#: dist/blocks/layers/index.js:34
+#: dist/blocks/layers/index.js:37
+#: dist/blocks/section/index.js:4
+#: dist/blocks/section/index.js:7
+#: dist/blocks/section/index.js:10
+#: dist/blocks/section/index.js:13
+msgid "Section (%1$s)"
+msgstr ""
+
+#: dist/blocks/layers/index.js:28
+msgid "Background image / Centered title"
+msgstr ""
+
+#: dist/blocks/layers/index.js:28
+#: dist/blocks/layers/index.js:31
+#: dist/blocks/layers/index.js:34
+#: dist/blocks/layers/index.js:37
+msgctxt "block keywords"
+msgid "section"
+msgstr ""
+
+#: dist/blocks/layers/index.js:31
+msgid "Background image / Centered title / Subtitle"
+msgstr ""
+
+#: dist/blocks/layers/index.js:34
+msgid "Background image / Left title"
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "Background image / Left title / Subtitle"
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "Use background image/video (Cover)"
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "Treat the first child block as a background image/video."
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "The background image/video is enlarged according or reduces to the amount of content."
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "Use background image/video (Fill)"
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "The background image/video is enlarged according to the amount of content."
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "Blur the background image/video"
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "Enable portrait mode"
+msgstr ""
+
+#: dist/blocks/layers/index.js:37
+msgid "If enabled, the number of vertical and horizontal grid lines is switched when the viewport is portrait."
+msgstr ""
+
+#: dist/blocks/mega-menu/index.js:1
+msgid "Mega menu background"
+msgstr ""
+
+#: dist/blocks/mega-menu/index.js:1
+msgid "Mega menu link text"
+msgstr ""
+
+#. translators: %d: number of results.
+#: dist/blocks/pattern-inserter/index.js:7
+msgid "Insert Pattern (Beta)"
+msgstr ""
+
+#: dist/blocks/pattern-inserter/index.js:7
+msgid "Click on the button below to see all available patterns. Click on any pattern you wish to insert, and that pattern will be inserted into the article."
+msgstr ""
+
+#: dist/blocks/pattern-inserter/index.js:7
+msgid "Remove this placeholder"
+msgstr ""
+
+#: dist/blocks/reel/index.js:1
+msgid "Height"
+msgstr ""
+
+#: dist/blocks/reel/index.js:1
+#: dist/blocks/slider/index.js:1
+msgid "Each items width"
+msgstr ""
+
+#: dist/blocks/reel/index.js:1
+msgid "No scrollbar"
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/index.js:1
+msgid "Responsive grid (Divider: stripe)"
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/index.js:1
+msgid "Responsive grid (Divider: underline)"
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/index.js:1
+msgid "Responsive grid (Divider: bordered)"
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/index.js:4
+#: dist/blocks/responsive-grid/index.js:4
+msgid "When the column width is less than this value, it is aligned in a single column."
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/index.js:4
+#: dist/blocks/responsive-grid/index.js:4
+msgid "If \"auto-repeat\" is \"auto-fill\" the column will maintain this size.\" auto-fit\", the column will stretch to fill the available space."
+msgstr ""
+
+#: dist/blocks/section/index.js:4
+msgid "Centered title"
+msgstr ""
+
+#: dist/blocks/section/index.js:7
+msgid "Centered title / Subtitle"
+msgstr ""
+
+#: dist/blocks/section/index.js:10
+msgid "Left title"
+msgstr ""
+
+#: dist/blocks/section/index.js:13
+msgid "Left title / Subtitle"
+msgstr ""
+
+#: dist/blocks/section/index.js:13
+msgid "Max width of contents"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Align items top"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Align items center"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Align items bottom"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Justify items left"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Justify items center"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Justify items right"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Justify items space-between"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Slide"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Fade"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Effect"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Center the active slide"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "The display isn't reflected on the editor."
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Hide parts that extend beyond the canvas"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Speed (s)"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Using the autoplay"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Delay (s)"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "When 0, the prev/next buttons and the pagination will not be displayed."
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "The prev/next buttons"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Using the prev/next buttons"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Arrows alignment"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Arrows justification"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "The pagination"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Using the pagination"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Pagination alignment"
+msgstr ""
+
+#: dist/blocks/slider/index.js:1
+msgid "Pagination justification"
+msgstr ""
+
+#: dist/blocks/stack-divided/index.js:1
+msgid "Stack (Divider: stripe)"
+msgstr ""
+
+#: dist/blocks/stack-divided/index.js:1
+msgid "Stack (Divider: underline)"
+msgstr ""
+
+#: dist/blocks/stack-divided/index.js:1
+msgid "Stack (Divider: bordered)"
+msgstr ""
+
+#: dist/blocks/stack-divided/index.js:1
+#: dist/blocks/stack/index.js:1
+#: dist/blocks/switcher/index.js:4
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Revert"
+msgstr ""
+
+#: dist/blocks/stack/index.js:1
+msgid "hgroup"
+msgstr ""
+
+#: dist/blocks/switcher/index.js:1
+#: dist/blocks/vertical-writing/index.js:1
+msgid "Threshold"
+msgstr ""
+
+#. translators: %1$s: <code>, %2$s: </code>
+#: dist/blocks/switcher/index.js:4
+msgid "Inside the %1$sflex-basis%2$s formula"
+msgstr ""
+
+#: dist/blocks/switcher/index.js:4
+msgid "When this block is smaller than this width, the contents are arranged in a single column."
+msgstr ""
+
+#: dist/blocks/switcher/index.js:4
+#: dist/blocks/with-sidebar/index.js:1
+msgid "In single-column display, by default, the elements on the left side of the two-column display are displayed on top, but when enabled, the elements on the right side of the two-column display are displayed on top."
+msgstr ""
+
+#: dist/blocks/text/index.js:1
+msgid "Centering by intrinsic size of children"
+msgstr ""
+
+#: dist/blocks/text/index.js:1
+msgid "Multi columns"
+msgstr ""
+
+#: dist/blocks/text/index.js:1
+msgid "Column width"
+msgstr ""
+
+#: dist/blocks/vertical-writing/index.js:1
+msgid "Text orientation"
+msgstr ""
+
+#: dist/blocks/vertical-writing/index.js:1
+msgid "When this block is smaller than this width, switch to writing horizontally."
+msgstr ""
+
+#: dist/blocks/vertical-writing/index.js:1
+msgid "Switch writing mode when portrait"
+msgstr ""
+
+#: dist/blocks/vertical-writing/index.js:1
+msgid "Switch to writing horizontally when portrait"
+msgstr ""
+
+#: dist/blocks/with-sidebar-content/index.js:1
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Main"
+msgstr ""
+
+#: dist/blocks/with-sidebar-content/index.js:1
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Sidebar"
+msgstr ""
+
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Columns to be treated as sidebars"
+msgstr ""
+
+#: dist/blocks/with-sidebar/index.js:1
+#: dist/js/editor/editor.js:1
+#: dist/js/editor/editor.js:10
+msgid "Right"
+msgstr ""
+
+#: dist/blocks/with-sidebar/index.js:1
+#: dist/js/editor/editor.js:1
+#: dist/js/editor/editor.js:10
+msgid "Left"
+msgstr ""
+
+#: dist/blocks/with-sidebar/index.js:1
+msgid "If unspecified, the width of the sidebar is calculated from the width of the child elements."
+msgstr ""
+
+#: dist/blocks/with-sidebar/index.js:1
+#: dist/js/editor/editor.js:1
+msgid "Min width"
+msgstr ""
+
+#: dist/blocks/with-sidebar/index.js:1
+msgid "Wrap when content equals this width."
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Line break per screen size"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Line breaks when on the desktop"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Line breaks when on the tablet"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Line breaks when on the mobile"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "wbr"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Inline icon"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Stroke width"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Close"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Color"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Text shadow"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "X"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Y"
+msgstr ""
+
+#: dist/formats/formats.js:1
+msgid "Blur"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "None"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Padding"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Margins at both ends"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Using root padding"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Gap"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Stairs grid"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Stairs climbing direction"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Using negative margin"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Overflow"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify content"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify items top"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify items bottom"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Align items"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Stretch to fill"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Center"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Block alignment"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Recommended width"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Fill"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Fit"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Max width"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Max height"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Min height"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "auto-fill"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "auto-fit"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Align self top"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Align self center"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Align self bottom"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Align self"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify self left"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify self center"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify self right"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "Justify self"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "A grid item's size and location within a grid column"
+msgstr ""
+
+#: dist/js/editor/editor.js:1
+msgid "A grid item's size and location within the grid row"
+msgstr ""
+
+#. translators: %1$s: <code>, %2$s: </code>
+#: dist/js/editor/editor.js:4
+#: dist/js/editor/editor.js:7
+msgid "For example, enter %1$s1 / -2%2$s (fill from the first grid line to the second-to-last grid line)."
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Apply to the block with the upper overlap order."
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Layer"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Mix blend mode"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Parallax"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Speed"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Scroll"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+#: dist/js/editor/editor.js:10
+msgid "Type"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Delay"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Easing"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Initial position (Y)"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Initial position (X)"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Initial shrinkage rate"
+msgstr ""
+
+#: dist/js/editor/editor.js:7
+msgid "Animation"
+msgstr ""
+
+#. translators: %1$s: <code>wbr</code>
+#: dist/js/editor/editor.js:10
+msgid "Use %1$s to indicate a line break at an arbitrary position."
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Fluid typography"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Half leading"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Auto line breaks"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Filter"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Position"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Top"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Bottom"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "The stack level"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Add your own CSS to customize the appearance of this block."
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Using \"&\" as a selector acts as a unique selector that applies only to this block."
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Selectors and CSS beginning with anything other than \"&\" are ignored."
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Overlay"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Overlay opacity"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Cell Min Width"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Select parent block"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Select child block"
+msgstr ""
+
+#: dist/js/editor/editor.js:10
+msgid "Show block outline"
+msgstr ""
+
+#: dist/variations/variations.js:1
+msgid "Post to X"
+msgstr ""
+
+#: dist/variations/variations.js:1
+msgid "Share to Facebook"
+msgstr ""
+
+#: dist/variations/variations.js:1
+msgid "Share to LINE"
+msgstr ""
+
+#: dist/variations/variations.js:1
+msgid "Add to Hatena Bookmarks"
+msgstr ""
+
+#: dist/variations/variations.js:1
+msgid "B! Bookmark"
+msgstr ""
+
+#: dist/blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr ""
+
+#: dist/blocks/accordion/block.json
+msgctxt "block description"
+msgid "This block displays folded content."
+msgstr ""
+
+#: dist/blocks/accordion/block.json
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr ""
+
+#: dist/blocks/accordion/block.json
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Box"
+msgstr ""
+
+#: dist/blocks/accordion/block.json
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Panel"
+msgstr ""
+
+#: dist/blocks/both-sides-content/block.json
+msgctxt "block title"
+msgid "Both sides content"
+msgstr ""
+
+#: dist/blocks/both-sides-content/block.json
+msgctxt "block description"
+msgid "The content of the both-sides block."
+msgstr ""
+
+#: dist/blocks/both-sides/block.json
+msgctxt "block title"
+msgid "Both sides"
+msgstr ""
+
+#: dist/blocks/both-sides/block.json
+msgctxt "block description"
+msgid "This block aligns children on both sides."
+msgstr ""
+
+#: dist/blocks/breadcrumbs/block.json
+msgctxt "block title"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: dist/blocks/breadcrumbs/block.json
+msgctxt "block description"
+msgid "This block indicates the current page location."
+msgstr ""
+
+#: dist/blocks/center/block.json
+msgctxt "block title"
+msgid "Center"
+msgstr ""
+
+#: dist/blocks/center/block.json
+msgctxt "block description"
+msgid "This block centers the children."
+msgstr ""
+
+#: dist/blocks/child-pages/block.json
+msgctxt "block title"
+msgid "Child pages"
+msgstr ""
+
+#: dist/blocks/child-pages/block.json
+msgctxt "block description"
+msgid "This block displays child pages."
+msgstr ""
+
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Cluster (Stripe)"
+msgstr ""
+
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Cluster (Slash)"
+msgstr ""
+
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Stack (Stripe)"
+msgstr ""
+
+#: dist/blocks/child-pages/block.json
+msgctxt "block style label"
+msgid "Rich media"
+msgstr ""
+
+#: dist/blocks/cluster-divided-content/block.json
+msgctxt "block title"
+msgid "Cluster (Divided) content"
+msgstr ""
+
+#: dist/blocks/cluster-divided-content/block.json
+msgctxt "block description"
+msgid "This block places the content inside the cluster (Divided) block."
+msgstr ""
+
+#: dist/blocks/cluster-divided/block.json
+msgctxt "block title"
+msgid "Cluster (Divided)"
+msgstr ""
+
+#: dist/blocks/cluster-divided/block.json
+#: dist/blocks/cluster/block.json
+msgctxt "block description"
+msgid "This block arranges children horizontally."
+msgstr ""
+
+#: dist/blocks/cluster/block.json
+msgctxt "block title"
+msgid "Cluster"
+msgstr ""
+
+#: dist/blocks/container/block.json
+msgctxt "block title"
+msgid "Container"
+msgstr ""
+
+#: dist/blocks/container/block.json
+msgctxt "block description"
+msgid "Keep the content area within a certain width, plus appropriate margins on the left and right."
+msgstr ""
+
+#: dist/blocks/cover-content/block.json
+msgctxt "block title"
+msgid "Cover content"
+msgstr ""
+
+#: dist/blocks/cover-content/block.json
+msgctxt "block description"
+msgid "This block places the content inside the cover block."
+msgstr ""
+
+#: dist/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr ""
+
+#: dist/blocks/cover/block.json
+msgctxt "block description"
+msgid "This block allows you to specify how the child blocks are placed vertically within a certain height. It is designed primarily to cover a large area of the screen (by default, the minimum height is the same height as the screen)."
+msgstr ""
+
+#: dist/blocks/decorator/block.json
+msgctxt "block title"
+msgid "Decorator"
+msgstr ""
+
+#: dist/blocks/decorator/block.json
+msgctxt "block description"
+msgid "Decorative block. Color, padding and position can be set."
+msgstr ""
+
+#: dist/blocks/decorator/block.json
+msgctxt "block keyword"
+msgid "Box"
+msgstr ""
+
+#: dist/blocks/div/block.json
+msgctxt "block title"
+msgid "div"
+msgstr ""
+
+#: dist/blocks/div/block.json
+msgctxt "block description"
+msgid "A simple div element without any decoration."
+msgstr ""
+
+#: dist/blocks/flex-divided-content/block.json
+msgctxt "block title"
+msgid "Flex (Divided) content"
+msgstr ""
+
+#: dist/blocks/flex-divided-content/block.json
+msgctxt "block description"
+msgid "This block places the content inside the flex (Divided) block."
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+msgctxt "block title"
+msgid "Flex (Divided)"
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+#: dist/blocks/flex/block.json
+msgctxt "block description"
+msgid "Child blocks can be layout in flex box."
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+#: dist/blocks/flex/block.json
+msgctxt "block keyword"
+msgid "flex"
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+#: dist/blocks/flex/block.json
+msgctxt "block keyword"
+msgid "flex-box"
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+#: dist/blocks/flex/block.json
+msgctxt "block keyword"
+msgid "flexbox"
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+#: dist/blocks/flex/block.json
+#: dist/blocks/grid-divided/block.json
+#: dist/blocks/grid/block.json
+msgctxt "block keyword"
+msgid "auto-layout"
+msgstr ""
+
+#: dist/blocks/flex-divided/block.json
+#: dist/blocks/flex/block.json
+#: dist/blocks/grid-divided/block.json
+#: dist/blocks/grid/block.json
+msgctxt "block keyword"
+msgid "AutoLayout"
+msgstr ""
+
+#: dist/blocks/flex/block.json
+msgctxt "block title"
+msgid "Flex"
+msgstr ""
+
+#: dist/blocks/frame/block.json
+msgctxt "block title"
+msgid "Frame"
+msgstr ""
+
+#: dist/blocks/frame/block.json
+msgctxt "block description"
+msgid "This block is used to fit the image into a fixed angle of view."
+msgstr ""
+
+#: dist/blocks/grid-divided-content/block.json
+msgctxt "block title"
+msgid "Grid (Divided) content"
+msgstr ""
+
+#: dist/blocks/grid-divided-content/block.json
+msgctxt "block description"
+msgid "This block places the content inside the grid (Divided) block."
+msgstr ""
+
+#: dist/blocks/grid-divided/block.json
+msgctxt "block title"
+msgid "Grid (Divided)"
+msgstr ""
+
+#: dist/blocks/grid-divided/block.json
+#: dist/blocks/grid/block.json
+msgctxt "block description"
+msgid "Child blocks can be layout in grid."
+msgstr ""
+
+#: dist/blocks/grid/block.json
+msgctxt "block title"
+msgid "Grid"
+msgstr ""
+
+#: dist/blocks/gutters/block.json
+msgctxt "block title"
+msgid "Gutters"
+msgstr ""
+
+#: dist/blocks/gutters/block.json
+msgctxt "block description"
+msgid "A block for separating content with top and bottom padding."
+msgstr ""
+
+#: dist/blocks/layer/block.json
+msgctxt "block title"
+msgid "Layer"
+msgstr ""
+
+#: dist/blocks/layer/block.json
+msgctxt "block description"
+msgid "The layer of the layers block. If grid-row is deleted, the elements overlap completely."
+msgstr ""
+
+#: dist/blocks/layers/block.json
+msgctxt "block title"
+msgid "Layers"
+msgstr ""
+
+#: dist/blocks/layers/block.json
+msgctxt "block description"
+msgid "This block layers the children."
+msgstr ""
+
+#: dist/blocks/mega-menu/block.json
+msgctxt "block title"
+msgid "Mega Menu"
+msgstr ""
+
+#: dist/blocks/mega-menu/block.json
+msgctxt "block description"
+msgid "Add a mega menu to your navigation."
+msgstr ""
+
+#: dist/blocks/pattern-inserter/block.json
+msgctxt "block title"
+msgid "Insert pattern (Beta)"
+msgstr ""
+
+#: dist/blocks/pattern-inserter/block.json
+msgctxt "block description"
+msgid "Insert a pattern (Only root). This block is beta version. This block may be significantly modified or discontinued in the future. In that case, however, the inserted patterns will not be affected."
+msgstr ""
+
+#: dist/blocks/reel/block.json
+msgctxt "block title"
+msgid "Reel"
+msgstr ""
+
+#: dist/blocks/reel/block.json
+#: dist/blocks/slider/block.json
+msgctxt "block description"
+msgid "This block displays children scrolling horizontally."
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided-content/block.json
+msgctxt "block title"
+msgid "Responsive grid (Divided) content"
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided-content/block.json
+msgctxt "block description"
+msgid "This block places the content inside the responsive grid (Divided) block."
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/block.json
+msgctxt "block title"
+msgid "Responsive grid (Divided)"
+msgstr ""
+
+#: dist/blocks/responsive-grid-divided/block.json
+#: dist/blocks/responsive-grid/block.json
+msgctxt "block description"
+msgid "This block generates a simple grid."
+msgstr ""
+
+#: dist/blocks/responsive-grid/block.json
+msgctxt "block title"
+msgid "Responsive grid"
+msgstr ""
+
+#: dist/blocks/section/block.json
+msgctxt "block title"
+msgid "Section"
+msgstr ""
+
+#: dist/blocks/section/block.json
+msgctxt "block description"
+msgid "This block represents a generic standalone section of a document."
+msgstr ""
+
+#: dist/blocks/slide/block.json
+msgctxt "block title"
+msgid "Slide"
+msgstr ""
+
+#: dist/blocks/slider/block.json
+msgctxt "block title"
+msgid "Slider"
+msgstr ""
+
+#: dist/blocks/stack-divided-content/block.json
+msgctxt "block title"
+msgid "Stack (Divided) content"
+msgstr ""
+
+#: dist/blocks/stack-divided-content/block.json
+msgctxt "block description"
+msgid "This block places the content inside the stack (Divided) block."
+msgstr ""
+
+#: dist/blocks/stack-divided/block.json
+msgctxt "block title"
+msgid "Stack (Divided)"
+msgstr ""
+
+#: dist/blocks/stack-divided/block.json
+#: dist/blocks/stack/block.json
+msgctxt "block description"
+msgid "This block is used to arrange children vertically at regular intervals."
+msgstr ""
+
+#: dist/blocks/stack/block.json
+msgctxt "block title"
+msgid "Stack"
+msgstr ""
+
+#: dist/blocks/switcher/block.json
+msgctxt "block title"
+msgid "Switcher"
+msgstr ""
+
+#: dist/blocks/switcher/block.json
+msgctxt "block description"
+msgid "This block switches the direction of contents flow depending on its contents."
+msgstr ""
+
+#: dist/blocks/text/block.json
+msgctxt "block title"
+msgid "Text"
+msgstr ""
+
+#: dist/blocks/text/block.json
+msgctxt "block description"
+msgid "This block is designed to display easy-to-read text."
+msgstr ""
+
+#: dist/blocks/vertical-writing/block.json
+msgctxt "block title"
+msgid "Vertical writing (Beta)"
+msgstr ""
+
+#: dist/blocks/vertical-writing/block.json
+msgctxt "block description"
+msgid "This block is used to place vertically written text. This block is a beta version. In the future, disruptive changes may be made or the block may become obsolete."
+msgstr ""
+
+#: dist/blocks/with-sidebar-content/block.json
+msgctxt "block title"
+msgid "With sidebar content"
+msgstr ""
+
+#: dist/blocks/with-sidebar-content/block.json
+msgctxt "block description"
+msgid "The content of the with sidebar block."
+msgstr ""
+
+#: dist/blocks/with-sidebar/block.json
+msgctxt "block title"
+msgid "With sidebar"
+msgstr ""
+
+#: dist/blocks/with-sidebar/block.json
+msgctxt "block description"
+msgid "This block is used to assemble components with sidebars."
+msgstr ""
+
+#: styles/asia.json
+msgctxt "Style variation name"
+msgid "Asia"
+msgstr ""
+
+#: styles/asia.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Gradient name"
+msgid "Accent gradation"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background Alt"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Text Alt"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Text (Black / Immutable)"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Pale Gray"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Bright Gray"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Light Gray"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Gray"
+msgstr ""
+
+#: styles/asia.json
+#: styles/dark.json
+#: styles/evening.json
+#: styles/grasslands.json
+#: styles/ice-lake.json
+#: styles/refined.json
+#: styles/soft-light.json
+#: theme.json
+msgctxt "Color name"
+msgid "Heavy Gray"
+msgstr ""
+
+#: styles/dark.json
+#: styles/section/section-dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/evening.json
+msgctxt "Style variation name"
+msgid "Evening"
+msgstr ""
+
+#: styles/grasslands.json
+msgctxt "Style variation name"
+msgid "Grasslands"
+msgstr ""
+
+#: styles/ice-lake.json
+msgctxt "Style variation name"
+msgid "Ice lake"
+msgstr ""
+
+#: styles/refined.json
+msgctxt "Style variation name"
+msgid "Refined"
+msgstr ""
+
+#: styles/section/section-accent.json
+msgctxt "Style variation name"
+msgid "Accent"
+msgstr ""
+
+#: styles/section/section-gray.json
+msgctxt "Style variation name"
+msgid "Gray"
+msgstr ""
+
+#: styles/soft-light.json
+msgctxt "Style variation name"
+msgid "Soft light"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Sans serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Noto Sans JP"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Noto Serif JP"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "BIZ UDPGothic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "BIZ UDPMincho"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XS"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "S"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "M"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "L"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "3XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "4XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "5XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "6XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XS"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "S"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "M"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "L"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3XL"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: One Column"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: One Column / Page Header (Featured Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: One Column / Page Header (Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: One Column / Page Header (Slim)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: One Column / Page Header (Wide)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Only Header and Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Right Sidebar / Page Header (Featured Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Left Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Left Header / Only Header and Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Left Header / Page Header (Featured Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Left Header / Page Header (Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages: Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: One Column"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: One Column / Page Header (Featured Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: One Column / Page Header (Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: One Column / Page Header (Slim)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: One Column / Page Header (Wide)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Only Header and Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Right Sidebar / Page Header (Featured Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Right Sidebar / Page Header (Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Left Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Left Header / Only Header and Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Left Header / Page Header (Featured Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Posts: Left Header / Page Header (Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Vertical)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Loop"
+msgstr ""

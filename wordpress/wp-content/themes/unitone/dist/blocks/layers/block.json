@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "name": "unitone/layers",
+  "title": "Layers",
+  "description": "This block layers the children.",
+  "attributes": {
+    "cover": {
+      "type": "boolean",
+      "default": false
+    },
+    "fill": {
+      "type": "boolean",
+      "default": false
+    },
+    "blur": {
+      "type": "number",
+      "default": 0
+    },
+    "portrait": {
+      "type": "boolean",
+      "default": true
+    },
+    "columns": {
+      "type": "number",
+      "default": 12
+    },
+    "rows": {
+      "type": "number",
+      "default": 7
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=layers]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "align": [
+      "full",
+      "wide"
+    ],
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "gap": true,
+      "minHeight": true,
+      "fluidTypography": true,
+      "lineHeight": true,
+      "scrollAnimation": true
+    }
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

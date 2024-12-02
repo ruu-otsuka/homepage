@@ -1,0 +1,138 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "12.0.0",
+  "textdomain": "unitone",
+  "name": "unitone/accordion",
+  "title": "Accordion",
+  "description": "This block displays folded content.",
+  "attributes": {
+    "summary": {
+      "type": "string",
+      "source": "html",
+      "selector": ".unitone-accordion__summary-text"
+    },
+    "mark": {
+      "type": "string",
+      "default": "chevron-down"
+    },
+    "q": {
+      "type": "boolean",
+      "default": false
+    },
+    "qLabel": {
+      "type": "string",
+      "source": "html",
+      "selector": ".unitone-accordion__q-text"
+    },
+    "qWidth": {
+      "type": "string",
+      "default": "auto"
+    },
+    "a": {
+      "type": "boolean",
+      "default": false
+    },
+    "aLabel": {
+      "type": "string",
+      "source": "html",
+      "selector": ".unitone-accordion__a-text"
+    },
+    "aWidth": {
+      "type": "string",
+      "default": "auto"
+    },
+    "unitone": {
+      "type": "object",
+      "default": {
+        "padding": "-1"
+      }
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": ".unitone-accordion"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": true,
+      "color": true,
+      "gradients": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "unitone": {
+      "padding": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "box",
+      "label": "Box"
+    },
+    {
+      "name": "panel",
+      "label": "Panel"
+    }
+  ],
+  "example": {
+    "attributes": {
+      "q": true,
+      "qLabel": "Q",
+      "a": true,
+      "aLabel": "A",
+      "summary": "Lorem ipsum dolor sit amet",
+      "className": "is-style-panel"
+    }
+  },
+  "category": "unitone/component",
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css",
+    "unitone-with-sidebar-style"
+  ]
+}

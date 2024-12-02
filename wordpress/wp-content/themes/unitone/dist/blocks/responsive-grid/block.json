@@ -1,0 +1,99 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "version": "14.4.2",
+  "name": "unitone/responsive-grid",
+  "title": "Responsive grid",
+  "description": "This block generates a simple grid.",
+  "attributes": {
+    "columnMinWidth": {
+      "type": "string",
+      "default": "240px"
+    },
+    "unitone": {
+      "type": "object",
+      "default": {
+        "autoRepeat": "auto-fit",
+        "stairsUp": "left"
+      }
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=responsive-grid]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "gap": {
+        "splitOnAxis": true
+      },
+      "autoRepeat": true,
+      "stairs": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "example": {
+    "viewportWidth": 1280,
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

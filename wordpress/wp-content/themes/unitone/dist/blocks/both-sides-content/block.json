@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "name": "unitone/both-sides-content",
+  "title": "Both sides content",
+  "description": "The content of the both-sides block.",
+  "parent": [
+    "unitone/both-sides"
+  ],
+  "attributes": {
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "supports": {
+    "inserter": false,
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "flexBasis": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js"
+}

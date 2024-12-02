@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "textdomain": "unitone",
+  "version": "11.0.4",
+  "name": "unitone/slider",
+  "title": "Slider",
+  "description": "This block displays children scrolling horizontally.",
+  "attributes": {
+    "arrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrowsAlignment": {
+      "type": "string",
+      "default": "bottom"
+    },
+    "arrowsJustification": {
+      "type": "string",
+      "default": "center"
+    },
+    "hideOutside": {
+      "type": "boolean",
+      "default": false
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": false
+    },
+    "paginationAlignment": {
+      "type": "string",
+      "default": "bottom"
+    },
+    "paginationJustification": {
+      "type": "string",
+      "default": "center"
+    },
+    "slideWidth": {
+      "type": "string",
+      "default": ""
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoplayDelay": {
+      "type": "number",
+      "default": 0
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "centeredSlides": {
+      "type": "boolean",
+      "default": false
+    },
+    "speed": {
+      "type": "number"
+    },
+    "effect": {
+      "type": "string",
+      "default": "slide"
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": ".unitone-slider"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "gap": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    }
+  },
+  "category": "unitone/component",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./app.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

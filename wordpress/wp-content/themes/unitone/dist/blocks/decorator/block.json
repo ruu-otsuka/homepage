@@ -1,0 +1,142 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "11.1.0",
+  "textdomain": "unitone",
+  "name": "unitone/decorator",
+  "title": "Decorator",
+  "description": "Decorative block. Color, padding and position can be set.",
+  "keywords": [
+    "Box"
+  ],
+  "attributes": {
+    "tagName": {
+      "type": "string",
+      "default": "div"
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    },
+    "href": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "href"
+    },
+    "rel": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "rel"
+    },
+    "linkTarget": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "target"
+    },
+    "unitone": {
+      "type": "object",
+      "default": {
+        "position": {
+          "position": "relative"
+        },
+        "overflow": "visible"
+      }
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=decorator]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "align": [
+      "full",
+      "wide"
+    ],
+    "color": {
+      "background": true,
+      "gradients": true,
+      "color": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "shadow": {
+      "__experimentalDefaultControls": {
+        "shadow": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "unitone": {
+      "padding": true,
+      "position": true,
+      "overflow": true,
+      "maxHeight": true,
+      "fluidTypography": true,
+      "lineHeight": true,
+      "parallax": true,
+      "scrollAnimation": true,
+      "style": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "style": {
+        "border": {
+          "width": "1px",
+          "radius": "6px"
+        }
+      },
+      "borderColor": "unitone-light-gray",
+      "backgroundColor": "unitone-bright-gray",
+      "textColor": "unitone-text",
+      "unitone": {
+        "padding": "1"
+      }
+    },
+    "innerBlocks": [
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "12.0.4",
+  "textdomain": "unitone",
+  "name": "unitone/text",
+  "title": "Text",
+  "description": "This block is designed to display easy-to-read text.",
+  "attributes": {
+    "center": {
+      "type": "boolean",
+      "default": false
+    },
+    "column": {
+      "type": "boolean",
+      "default": false
+    },
+    "columnWidth": {
+      "type": "string",
+      "default": ""
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "selectors": {
+    "root": "[data-unitone-layout~=text]"
+  },
+  "supports": {
+    "className": false,
+    "anchor": true,
+    "color": {
+      "background": false,
+      "link": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "unitone": {
+      "blockAlign": true,
+      "gap": true,
+      "gutters": true,
+      "maxWidth": true,
+      "fluidTypography": true,
+      "lineHeight": true
+    },
+    "layout": {
+      "allowEditing": false,
+      "allowInheriting": false,
+      "default": {
+        "type": "constrained"
+      }
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "core/heading",
+        "attributes": {
+          "level": 2,
+          "content": "Lorem ipsum dolor sit amet"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      },
+      {
+        "name": "core/heading",
+        "attributes": {
+          "level": 3,
+          "content": "Lorem ipsum dolor sit amet"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      }
+    ]
+  },
+  "category": "unitone/layout",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
