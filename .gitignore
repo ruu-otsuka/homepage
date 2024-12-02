@@ -1,0 +1,14 @@
+DS_Store/*
+=======
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+
