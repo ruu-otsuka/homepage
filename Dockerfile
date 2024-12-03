@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM FROM wordpress:php8.0-apache
 
 # Apacheの設定を追加
 RUN echo "ServerName homepage-0192.onrender.com" >> /etc/apache2/apache2.conf
